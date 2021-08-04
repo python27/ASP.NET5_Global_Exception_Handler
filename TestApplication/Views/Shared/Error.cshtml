@@ -1,0 +1,13 @@
+﻿@model Microsoft.AspNetCore.Diagnostics.IExceptionHandlerFeature
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="row">
+    <div class="text-danger" style="border: 8px solid red">
+        <h3>Error: @Model.Error.Message</h3>
+        <p>@Model.Error.StackTrace</p>
+        <p>@Model.Error.InnerException</p>
+    </div>
+</div>
+
