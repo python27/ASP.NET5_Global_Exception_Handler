@@ -1,4 +1,5 @@
 # ASP.NET5_Global_Exception_Handler
+Writing Exception messages using Nlog.
 
 ## Sample screenshot of the application
 
